@@ -8,6 +8,7 @@ body {
 
   /*background: color image repeat position/size*/
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 * {
@@ -36,9 +37,11 @@ body {
   --switch-bg-url: url(./assets/sun.svg);
 }
 
+
 body * {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: var(--text-color);
+  
 }
 
 #container {
